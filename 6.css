@@ -1,0 +1,97 @@
+
+body{
+    background-color: transparent;
+}
+
+.sideList{
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    background-color:#1e90ff	;
+}
+.space{
+    height: 150px;
+}
+.space1{
+    height: 50px;
+}
+
+
+.nav-links{
+    list-style: none;
+    position: absolute;
+    margin-top: 0%;
+
+} 
+.nav-links li{
+    padding: 10px 0;
+    
+}
+
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 14px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav-links li a i{
+    font-size:22px ;
+    margin-right: 20px;
+
+}
+.nav-links li:hover a{
+    color: #1e90ff	;
+    transition: 1.2s;
+    width: 100hv;
+    border: 4px white solid;
+    height: 50px;
+    background-color: white;
+}
+
+.active{
+    background: transparent;
+    width: 100%;
+    height: 47px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 0px;
+    box-shadow: 0px 0px;
+
+}
+.card {
+    background-color: #fff;
+    width: 25.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 25px;
+    transition: 0.7s ease;
+    margin-left: 40%;
+    
+}
+h1{
+    font-size: 48pt;
+    font-weight: bold;
+    color: #1e90ff;
+}
+.char{
+    margin-left: 34%;
+    list-style-type: circle;
+    padding: 5px;
+
+}
+.char li{
+    padding: 5px;
+
+}
+h2{
+    font-size: 36pt;
+
+}
+#job{
+    font-size: 20pt;
+}
